@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* hiding scoll bar */
+.scrollbar-hidden::-webkit-scrollbar{
+  display: none;
+}
+.scrollbar-hidden{
+  -ms-overflow-style: none;
+}
+
+.scrollbar-hidden{
+  scrollbar-width: none;
+
+}
+.scrollbar-hidden{
+  overflow: auto;
+}
